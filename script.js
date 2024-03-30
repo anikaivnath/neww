@@ -3,13 +3,17 @@ let input=document.querySelector('input')
 let arr=[];
 
 
+let c=0;
 btn.addEventListener('click',()=>
 {
 arr.push(input.value);
 arr.map(items=>{
+c++;
 let p= document.createElement('p');
-p.innerText=items;
+p.innerText=`${c} ${items}`;
 document.body.appendChild(p);
+
+
 
 })
 
