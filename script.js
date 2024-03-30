@@ -12,9 +12,9 @@ p.innerText=items;
 document.body.appendChild(p);
 
 })
-console.log(arr);
 
 input.value='';
+arr.pop();
 }
 
 
